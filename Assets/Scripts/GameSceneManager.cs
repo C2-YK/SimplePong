@@ -11,12 +11,12 @@ public class GameSceneManager : MonoBehaviour
     public void LoadMainGameScene(bool singlePlayerMode)
     {
         GameInstance.instance.singlePlayerMode = singlePlayerMode;
-        SceneManager.LoadScene("MainGame"); // Replace "MainGame" with your actual scene name
+        SceneManager.LoadScene("MainGame");
     }
 
     public void LoadMainMenuScene()
     {
-        SceneManager.LoadScene("MainMenu"); // Replace "MainMenu" with your actual scene name
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void CloseGame()
